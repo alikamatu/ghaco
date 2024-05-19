@@ -1,0 +1,30 @@
+.banner {
+    width: 100%;
+
+    .banner-photo {
+        overflow: hidden;
+        height: 60vh;
+        background: url("../../assets//cocoa1598478914.jpeg");
+        background-size: cover;
+        filter: brightness(50%);
+    }
+
+    .banner-text {
+        position: absolute;
+        top: 220px;
+        left: 300px;
+
+        h1 {
+            font-size: 100px;
+            color: #fff;
+            font-family: Poppins;
+            font-weight: 500;
+        }
+
+        p {
+            color: #fff;
+            font-size: 25px;
+            margin-left: 120px;
+        }
+    }
+}

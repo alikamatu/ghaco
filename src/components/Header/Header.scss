@@ -1,0 +1,112 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0, 20%);
+    padding: 10px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+
+    .logo-wrapper {
+        display: flex;
+        align-items: center;
+        padding: 0px 90px;
+    }
+    img {
+        width: 100px;
+    }
+
+    .navlinks ul {
+        display: flex;
+        padding: 0px 90px;
+
+        li {
+            list-style: none;
+            padding: 10px;
+            font-size: 18px;
+            transition: 0.4s;
+            cursor: pointer;
+        }
+
+        li:hover {
+            border-bottom: 1px solid #00796b;
+        }
+    }
+
+    .services {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        justify-content: center;
+        align-items: start;
+        right: 160px;
+        top: 83px;
+        background: #fff;
+        box-shadow: 0px 0px 4px 2px rgba(0,0,0, 20%);
+        animation: fadeIn 1s;
+
+        p {
+            list-style: none;
+            padding: 20px 60px;
+        }
+    }
+}
+@media (max-width: 480px) {
+    .header {
+        justify-content: space-between;
+
+        .logo-wrapper {
+            padding: 0px 20px;
+            img {
+                width: 50px;
+            }
+
+            .logo-text {
+
+                p {
+                    font-size: 10px;
+                }
+            }
+        }
+
+        .navlinks {
+            .icon {
+                padding: 0px 20px;
+                color: #00796b;
+            }
+
+            ul {
+                display: none;
+            }
+        }
+    }
+    .services {
+        right: 0 !important;
+        width: 100%;
+        height: 100vh;
+        top: 0px !important;
+
+        .close-menu {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            color: #00796b;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+
+            li {
+                list-style: none;
+                padding: 30px;
+            }
+        }
+
+    }
+}

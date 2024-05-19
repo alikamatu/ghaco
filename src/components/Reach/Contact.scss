@@ -1,0 +1,55 @@
+// ContactPage.scss
+.contact-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .contact-info {
+    text-align: start;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    padding: 200px;
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #00796b;
+    }
+
+    .office-details {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+  
+
+      img {
+        width: 40px;
+        margin-right: 10px;
+      }
+
+      div {
+        text-align: left;
+
+        p {
+          margin: 5px 0;
+          font-size: 16px;
+        }
+
+      }
+    }
+  }
+}
+.pre-head {
+  font-weight: 600;
+  padding: 10px 0px;
+}
+
+@media (max-width: 490px) {
+  .contact-info {
+    padding: 20px !important;
+    margin-bottom: 40px;
+  }
+}

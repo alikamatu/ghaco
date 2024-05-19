@@ -1,0 +1,117 @@
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin-bottom: 40px;
+
+    h1 {
+        color: #00796b;
+        font-size: 25px;
+    }
+}
+
+.news {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 30px;
+
+    .news-temp {
+        background: #00796b;
+        width: 350px;
+        overflow: hidden;
+        color: #fff;
+        transition: 0.4s;
+
+        &:hover {
+            background: #00584e;
+
+            img {
+                transform: scale(110%);
+            }
+        }
+
+        .news-photo {
+            overflow: hidden;
+            height: 300px;
+            img {
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+                transition: 0.4s;
+            }
+        }
+
+        .news-desc {
+            padding: 10px;
+
+            p {
+                font-size: 12px;
+            }
+
+            h3 {
+                padding: 20px 0px;
+                font-size: 20px;
+                text-transform: uppercase;
+                height: content;
+            }
+            .read {
+
+                p {
+                    font-size: 15px;
+                    padding: 10px 0px;
+                    width: 100px;
+                    cursor: pointer;
+                    transition: 0.3s;
+
+                    &:hover {
+                        color: #90dfd5;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.box {
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.box-container {
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 300px;
+
+   img:hover, .box-text:hover {
+        transform: scale(120%) !important;
+    }
+
+    img {
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .box-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        cursor: pointer;
+        width: 400px;
+        background: #0d192541;
+        color: #fff;
+        height: 300px;
+        transition: 0.4s;
+    }
+
+}
+  
