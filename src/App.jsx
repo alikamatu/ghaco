@@ -9,7 +9,7 @@ import Services from './components/Service/Service';
 import About from './components/About/About';
 import ReachOut from './components/Reach/ReachOut';
 import LandProfile from './components/LandProfile';
-import accra from './components/photos/cocoa/mixed.jpeg'
+import accra from './components/photos/loren-king-bp4Kj6RMH9E-unsplash.jpg'
 import coa1 from './components/photos/cocoa/co1.jpeg'
 import kumasi from './components/photos/cocoa/cocoa.jpeg'
 import coa2 from './components/photos/cocoa/coa2.jpeg'
@@ -25,6 +25,8 @@ import cash2 from './components/photos/cashew/cash2.jpeg'
 import cash3 from './components/photos/cashew/cash3.jpeg'
 import cash4 from './components/photos/cashew/cash4.jpeg'
 import cash5 from './components/photos/cashew/cash5.jpeg'
+import tool from './components/photos/plants-gardening-tools.jpg'
+import tool1 from './components/photos/pngwing.com (5).png'
 
 function App() {
   const images = [
@@ -52,12 +54,11 @@ function App() {
     },
     {
       id: 3,
-      title: 'Mixed Crop Land in Accra',
+      title: 'Selling of Agricultural Products',
       description: 'Versatile land for various types of crops in the bustling city of Accra.',
       image: accra,
-      photo: [accra, kumasi],
-      size: '25 acres',
-      price: '$200,000'
+      photo: [accra, tool, tool1],
+      price: 'Varies'
     }
   ];
 
