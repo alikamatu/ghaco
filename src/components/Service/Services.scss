@@ -126,7 +126,18 @@
         width: 100%;
       }
       .service-card {
-        width: 95%;
+        width: 100%;
+        margin: 0;
+      }
+      .service-content {
+
+        .service-title {
+          padding: 0px 10px;
+        }
+
+        .service-description {
+          padding: 0px 10px;
+        }
       }
     }
     .serv {

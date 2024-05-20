@@ -28,9 +28,6 @@ const About = () => {
           vitae tincidunt nisi sollicitudin.
         </p>
       </div>
-      <div className="company-image">
-        <img src={companyImage} alt="Company" />
-      </div>
     </div>
     <div className="about">
       <section className="vision">

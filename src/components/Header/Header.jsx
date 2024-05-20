@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Header.scss';
-import logo from '../photos/logo.png';
+import logo from '../photos/logo.jpeg';
 import { Link } from 'react-router-dom';
 import { FaBars, FaX } from 'react-icons/fa6';
 
@@ -20,8 +20,6 @@ const Header = () => {
       <div className="logo-wrapper">
         <img src={logo} alt="" />
         <div className="logo-text">
-          <p>GhapCa</p>
-          <p>Grow in agriculture</p>
         </div>
       </div>
       <div className="navlinks">
@@ -30,7 +28,7 @@ const Header = () => {
         </div>
         <ul>
           <Link style={{textDecoration: "none", color: "#00796b"}} to="/"><li>Home</li></Link>
-          <Link style={{textDecoration: "none", color: "#00796b"}} to ="/service"><li id='sev' onMouseEnter={handleMouseEnter}>Services</li></Link>
+          <Link style={{textDecoration: "none", color: "#00796b"}} to ="/service"><li id='sev'>Services</li></Link>
           <Link style={{textDecoration: "none", color: "#00796b"}} to="/about"><li>About</li></Link>
          <Link style={{textDecoration: "none", color: "#00796b"}} to="/contact"> <li>Contact</li></Link>
         </ul>

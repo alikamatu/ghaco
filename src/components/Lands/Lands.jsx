@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './LandSales.scss';
-import accra from '../photos/cocoa/mixed.jpeg'
+import accra from '../photos/loren-king-bp4Kj6RMH9E-unsplash.jpg'
 import kumasi from '../photos/cocoa/cocoa.jpeg'
 import kumasi1 from '../photos/cashew/cashew.jpeg'
 
@@ -23,14 +23,7 @@ const lands = [
     size: '15 acres',
     price: '$120,000'
   },
-  {
-    id: 3,
-    title: 'Mixed Crop Land in Accra',
-    description: 'Versatile land for various types of crops in the bustling city of Accra.',
-    image: accra,
-    size: '25 acres',
-    price: '$200,000'
-  }
+
 ];
 
 const LandSales = () => {

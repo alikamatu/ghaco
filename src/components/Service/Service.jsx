@@ -43,9 +43,8 @@ const Services = () => {
       </div>
     </div>
     <div className="services-container">
-      <h1 className="services-title">Our Services</h1>
       <p className='serv'>
-    Welcome to [Your Company Name], where we are dedicated to transforming the agricultural landscape in Ghana and beyond. Our mission is to empower farmers, support agricultural ventures, and contribute to the sustainable development of our communities. With a focus on innovation, integrity, and impact, we offer a range of services designed to meet the diverse needs of the agricultural sector. Whether you are a seasoned farmer, an investor, or someone new 
+    Welcome to KINGDOM AGRICARE AND CONSULTING AGENCY GHANA, where we are dedicated to transforming the agricultural landscape in Ghana and beyond. Our mission is to empower farmers, support agricultural ventures, and contribute to the sustainable development of our communities. With a focus on innovation, integrity, and impact, we offer a range of services designed to meet the diverse needs of the agricultural sector. Whether you are a seasoned farmer, an investor, or someone new 
     to agriculture, our comprehensive services will help you thrive in this vital industry.
     </p>
       <div className="services-list">

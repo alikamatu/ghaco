@@ -16,6 +16,12 @@
     }
     img {
         width: 100px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    .icon {
+        display: none;
     }
 
     .navlinks ul {
@@ -73,6 +79,7 @@
 
         .navlinks {
             .icon {
+                display: block;
                 padding: 0px 20px;
                 color: #00796b;
             }
