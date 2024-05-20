@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import 'aos/dist/aos.css';
 import './Homepage.scss';
 import Image1 from '../photos/BACK.jpeg';
 import Image2 from '../photos/ago_downloaded.jpg';
