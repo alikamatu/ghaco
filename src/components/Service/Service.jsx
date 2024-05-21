@@ -5,6 +5,7 @@ import Lands from '../Lands/Lands';
 import Image1 from '../photos/BACK.jpeg';
 import Image2 from '../photos/ago_downloaded.jpg';
 import Image3 from '../photos/1705809358963.jpeg'
+import image4 from '../photos/loren-king-bp4Kj6RMH9E-unsplash.jpg'
 
 const Services = () => {
   const services = [
@@ -29,7 +30,7 @@ const Services = () => {
     {
       title: 'Selling of Agricultural Products',
       description: 'Our range of agricultural products includes the best quality produce from our partnered farms.',
-      image: Image1,
+      image: image4,
       align: 'right',
     },
   ];

@@ -21,15 +21,15 @@ const ReachOut = () => {
           <div>
             <p className='pre-head'>OUR LOCATION</p>
             <p>5th & 6th Floors, MOC Office Complex</p>
-            <p>Abdul Diof Road, Ridge. Accra. Adjacent to Kofi Annan ICT Centre of Excellence</p>
-            <p>DIGITAL ADDRESS: GA-079-0539</p>
+            <p>Abdul Diof Road, Ridge. Kumasi. Adjacent to Kofi Annan ICT Centre of Excellence</p>
+            <p>035 229 1545</p>
           </div>
         </div>
         <div className="mail-info">
           <p className='pre-head'>SEND US MAIL</p>
-          <p>info@moc.gov.gh</p>
+          <p>KINACAGHANA@GMAIL.COM</p>
           <p>P.O. BOX M38</p>
-          <p>ACCRA, GHANA</p>
+          <p>KUMASI, GHANA</p>
         </div>
       </div>
       <ContactForm />

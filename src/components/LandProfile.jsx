@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { FaArrowLeft, FaArrowRight, FaTimes } from 'react-icons/fa';
 import './LandProfile.scss';
@@ -31,6 +31,21 @@ const LandProfile = ({ lands }) => {
     setCurrentImageIndex((prevIndex) => (prevIndex - 1 + land.photo.length) % land.photo.length);
   };
 
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_ukkhj8k', 'template_5sfgvrg', form.current, 'TAQYbus1HbjM3WeWa  ')
+      .then((result) => {
+          console.log(result.text);
+          alert('Message sent successfully!');
+      }, (error) => {
+          console.log(error.text);
+          alert('Failed to send message, please try again later.');
+      });
+  };
+
   return (
     <div className="land-profile">
       <div className="land-details">
@@ -40,8 +55,12 @@ const LandProfile = ({ lands }) => {
         <div className="land-info">
           <h1>{land.title}</h1>
           <p>{land.description}</p>
-          <p><strong>Size:</strong> {land.size}</p>
-          <p><strong>Price:</strong> {land.price}</p>
+          <p className='arc'> {land.arc1}</p>
+          <p> {land.arcp1}</p>
+          <p className='arc'>{land.arc2}</p>
+          <p>{land.arcp2}</p>
+          <p className='arc'>{land.arc3}</p>
+          <p>{land.arcp3}</p>
         </div>
       </div>
       {land.photo && (
@@ -99,12 +118,12 @@ const LandProfile = ({ lands }) => {
               <option>Mixed Crop Land</option>
             </select>
           </label>
-          <label>Contact Time*
+          <label>Seze of Acre*
             <select name="contactTime" required>
               <option>Please Select</option>
-              <option>Morning</option>
-              <option>Afternoon</option>
-              <option>Evening</option>
+              <option>500 Acres</option>
+              <option>66 Acres</option>
+              <option>40 Acres</option>
             </select>
           </label>
           <label>Message<textarea name="message"></textarea></label>

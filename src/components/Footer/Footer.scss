@@ -1,6 +1,6 @@
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 40px 80px;
     background: green;
     color: #fff;
@@ -10,20 +10,17 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 0px 40px;
 
       img {
         width: 150px;
-        padding: 20px;
       }
     }
   
     .footer-section {
-      flex: 1;
       margin: 0 20px;
   
       h4 {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         font-size: 1.5em;
         padding-bottom: 10px;
       }

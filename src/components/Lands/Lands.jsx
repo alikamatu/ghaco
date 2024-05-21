@@ -9,7 +9,7 @@ import kumasi1 from '../photos/cashew/cashew.jpeg'
 const lands = [
   {
     id: 1,
-    title: 'Cocoa Farm in Kumasi',
+    title: 'Cocoa Farm Land',
     description: 'A beautiful cocoa farm located in the heart of Kumasi. Perfect for commercial production.',
     image: kumasi,
     size: '20 acres',
@@ -17,13 +17,20 @@ const lands = [
   },
   {
     id: 2,
-    title: 'Cashew Plantation in Sunyani',
+    title: 'Cashew Plantation Land',
     description: 'A well-maintained cashew plantation in Sunyani. Ideal for both small and large scale farming.',
     image: kumasi1,
     size: '15 acres',
     price: '$120,000'
   },
-
+  {
+    id: 3,
+    title: 'Selling of Agricultural Products',
+    description: 'Versatile land for various types of crops in the bustling city of Accra.',
+    image: accra,
+    size: '25 acres',
+    price: '$200,000'
+  }
 ];
 
 const LandSales = () => {
@@ -44,8 +51,8 @@ const LandSales = () => {
               <div className="land-details">
                 <h2>{land.title}</h2>
                 <p>{land.description}</p>
-                <p><strong>Size:</strong> {land.size}</p>
-                <p><strong>Price:</strong> {land.price}</p>
+                {/* <p><strong>Size:</strong> {land.size}</p>
+                <p><strong>Price:</strong> {land.price}</p> */}
               </div>
             </Link>
           </div>

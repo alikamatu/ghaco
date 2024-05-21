@@ -23,6 +23,16 @@
   .land-info {
     flex: 2;
     padding: 20px;
+
+    .arc {
+      font-weight: 900;
+      font-size: 20px;
+    }
+
+    p{
+      padding: 10px;
+      display: flex;
+    }
   }
 
   .featured-photos {
