@@ -36,21 +36,32 @@ function App() {
   const lands = [
     {
       id: 1,
-      title: 'Cocoa Farm in Kumasi',
+      title: 'Cocoa Farm Land',
       description: 'A beautiful cocoa farm located in the heart of Kumasi. Perfect for commercial production.',
       image: kumasi,
       size: '20 acres',
       photo: [coa1,coa2,coa3,coa4,coa5,coa6,coa7,coa8],
-      price: '$150,000'
+      price: '$150,000',
+      arc1: '500 ACRES',
+      arcp1: "398,540.00",      
+      arc2: '66 ACRES',
+      arcp2: "94,837.00",
+      arc3: '40 ACRES',
+      arcp3: "63,477.00"
     },
     {
       id: 2,
-      title: 'Cashew Plantation in Sunyani',
+      title: 'Cashew Plantation Land',
       description: 'A well-maintained cashew plantation in Sunyani. Ideal for both small and large scale farming.',
       image: kumasi1,
       size: '15 acres',
       photo: [cash1,cash2,cash3,cash4,cash5],
-      price: '$120,000'
+      arc1: '500 ACRES',
+      arcp1: "398,540.00",      
+      arc2: '66 ACRES',
+      arcp2: "94,837.00",
+      arc3: '40 ACRES',
+      arcp3: "63,477.00"
     },
     {
       id: 3,
