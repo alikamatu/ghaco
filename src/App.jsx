@@ -30,17 +30,47 @@ import tool1 from './components/photos/pngwing.com (5).png'
 
 function App() {
   const images = [
-    { url: image1, header: 'KINGDOM AGRICARE AND CONSULTING AGENCY GHANA', subtext: 'The landlods' }
+    { url: image1, header: 'KINGDOM AGRICARE AND CONSULTING AGENCY GHANA', subtext: 'Start your aagriculture journey with us' }
   ];
 
   const lands = [
     {
       id: 1,
-      title: 'Cocoa Farm Land',
+      title: 'Cocoa Farm at Kumasi',
       description: 'A beautiful cocoa farm located in the heart of Kumasi. Perfect for commercial production.',
       image: kumasi,
       size: '20 acres',
-      photo: [coa1,coa2,coa3,coa4,coa5,coa6,coa7,coa8],
+      photo: [coa1,coa2,coa3],
+      price: '$150,000',
+      arc1: '500 ACRES',
+      arcp1: "398,540.00",      
+      arc2: '66 ACRES',
+      arcp2: "94,837.00",
+      arc3: '40 ACRES',
+      arcp3: "63,477.00"
+    },
+    {
+      id: 4,
+      title: 'Cocoa Farm at Sefwi Kaase',
+      description: 'A beautiful cocoa farm located in the heart of Kumasi. Perfect for commercial production.',
+      image: coa7,
+      size: '20 acres',
+      photo: [coa7,coa8],
+      price: '$150,000',
+      arc1: '500 ACRES',
+      arcp1: "398,540.00",      
+      arc2: '66 ACRES',
+      arcp2: "94,837.00",
+      arc3: '40 ACRES',
+      arcp3: "63,477.00"
+    },
+    {
+      id: 5,
+      title: 'Cocoa Farm at Asante Mampong',
+      description: 'A beautiful cocoa farm located in the heart of Kumasi. Perfect for commercial production.',
+      image: coa4,
+      size: '20 acres',
+      photo: [coa4,coa5,coa6,],
       price: '$150,000',
       arc1: '500 ACRES',
       arcp1: "398,540.00",      
@@ -56,10 +86,6 @@ function App() {
       image: kumasi1,
       size: '15 acres',
       photo: [cash1,cash2,cash3,cash4,cash5],
-      arc1: '500 ACRES',
-      arcp1: "398,540.00",      
-      arc2: '66 ACRES',
-      arcp2: "94,837.00",
       arc3: '40 ACRES',
       arcp3: "63,477.00"
     },
