@@ -1,7 +1,7 @@
 // AboutPage.js
 import React from 'react';
 import './About.scss';
-import companyImage from '../photos/about.jpg';
+import companyImage from '../photos/wallpaper.jpg';
 
 const About = () => {
   return (

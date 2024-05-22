@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { FaArrowLeft, FaArrowRight, FaTimes } from 'react-icons/fa';
+import emailjs from 'emailjs-com';
 import './LandProfile.scss';
 
 const LandProfile = ({ lands }) => {
@@ -35,13 +36,14 @@ const LandProfile = ({ lands }) => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    console.log('Form submission triggered'); // Debugging log
 
-    emailjs.sendForm('service_ukkhj8k', 'template_5sfgvrg', form.current, 'TAQYbus1HbjM3WeWa  ')
+    emailjs.sendForm('service_ukkhj8k', 'template_zzzeosj', form.current, 'TAQYbus1HbjM3WeWa')
       .then((result) => {
-          console.log(result.text);
+          console.log('EmailJS result:', result.text); // Debugging log
           alert('Message sent successfully!');
       }, (error) => {
-          console.log(error.text);
+          console.log('EmailJS error:', error.text); // Debugging log
           alert('Failed to send message, please try again later.');
       });
   };
@@ -87,7 +89,7 @@ const LandProfile = ({ lands }) => {
       )}
       <div className="inquiry-form">
         <h2>Inquire about {land.title}</h2>
-        <form onSubmit={(e) => { e.preventDefault(); console.log('Inquiry submitted'); }}>
+        <form onSubmit={sendEmail} ref={form}>
           <label>First Name*<input type="text" name="firstName" required /></label>
           <label>Last Name*<input type="text" name="lastName" required /></label>
           <label>Mobile Number*<input type="text" name="mobileNumber" required /></label>

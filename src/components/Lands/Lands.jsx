@@ -4,32 +4,40 @@ import './LandSales.scss';
 import accra from '../photos/loren-king-bp4Kj6RMH9E-unsplash.jpg'
 import kumasi from '../photos/cocoa/cocoa.jpeg'
 import kumasi1 from '../photos/cashew/cashew.jpeg'
+import coa4 from '../photos/cocoa/coa4.jpeg'
+import coa7 from '../photos/cocoa/coa7.jpeg'
 
 
 const lands = [
   {
     id: 1,
-    title: 'Cocoa Farm Land',
+    title: 'Cocoa Farm at Kumasi',
     description: 'A beautiful cocoa farm located in the heart of Kumasi. Perfect for commercial production.',
     image: kumasi,
-    size: '20 acres',
-    price: '$150,000'
+  },
+  {
+    id: 4,
+    title: 'Cocoa Farm Sefwi Kaase',
+    description: 'A beautiful cocoa farm located in the heart of Kumasi. Perfect for commercial production.',
+    image: coa7,
+  },
+  {
+    id: 5,
+    title: 'Cocoa Farm at Asante Mampong',
+    description: 'A beautiful cocoa farm located in the heart of Kumasi. Perfect for commercial production.',
+    image: coa4,
   },
   {
     id: 2,
     title: 'Cashew Plantation Land',
     description: 'A well-maintained cashew plantation in Sunyani. Ideal for both small and large scale farming.',
     image: kumasi1,
-    size: '15 acres',
-    price: '$120,000'
   },
   {
     id: 3,
     title: 'Selling of Agricultural Products',
     description: 'Versatile land for various types of crops in the bustling city of Accra.',
     image: accra,
-    size: '25 acres',
-    price: '$200,000'
   }
 ];
 
