@@ -12,23 +12,6 @@ const About = () => {
       <h1>About</h1>
     </div>
   </div>
-    <div className="about-page">
-      <div className="about-content">
-        <h1>About Us</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at
-          arcu eget eros scelerisque consequat. Mauris at est vel nisi ultrices
-          consectetur. Donec non lacus ac est volutpat lacinia sed ut mi.
-        </p>
-        <p>
-          Integer semper, mi non convallis tincidunt, odio ligula condimentum
-          libero, nec lacinia ipsum justo sit amet leo. Proin tincidunt est vel
-          magna maximus dictum. Phasellus lobortis sapien eget ligula posuere,
-          et commodo metus tincidunt. Sed fermentum nunc vel odio accumsan,
-          vitae tincidunt nisi sollicitudin.
-        </p>
-      </div>
-    </div>
     <div className="about">
       <section className="vision">
         <h2>Our Vision</h2>
