@@ -43,11 +43,11 @@ function App() {
       photo: [coa1,coa2,coa3],
       price: '$150,000',
       arc1: '500 ACRES',
-      arcp1: "398,540.00",      
+      arcp1: "$398,540.00",      
       arc2: '66 ACRES',
-      arcp2: "94,837.00",
+      arcp2: "$94,837.00",
       arc3: '40 ACRES',
-      arcp3: "63,477.00"
+      arcp3: "$63,477.00"
     },
     {
       id: 4,
@@ -58,11 +58,11 @@ function App() {
       photo: [coa7,coa8],
       price: '$150,000',
       arc1: '500 ACRES',
-      arcp1: "398,540.00",      
+      arcp1: "$398,540.00",      
       arc2: '66 ACRES',
-      arcp2: "94,837.00",
+      arcp2: "$94,837.00",
       arc3: '40 ACRES',
-      arcp3: "63,477.00"
+      arcp3: "$63,477.00"
     },
     {
       id: 5,
@@ -73,11 +73,11 @@ function App() {
       photo: [coa4,coa5,coa6,],
       price: '$150,000',
       arc1: '500 ACRES',
-      arcp1: "398,540.00",      
+      arcp1: "$398,540.00",      
       arc2: '66 ACRES',
-      arcp2: "94,837.00",
+      arcp2: "$94,837.00",
       arc3: '40 ACRES',
-      arcp3: "63,477.00"
+      arcp3: "$63,477.00"
     },
     {
       id: 2,
@@ -87,7 +87,7 @@ function App() {
       size: '15 acres',
       photo: [cash1,cash2,cash3,cash4,cash5],
       arc3: '40 ACRES',
-      arcp3: "63,477.00"
+      arcp3: "$63,477.00"
     },
     {
       id: 3,
